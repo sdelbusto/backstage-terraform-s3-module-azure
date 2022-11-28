@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-terraform-s3-module
+  name: backstage-terraform-s3-module-azure
   description: A template for creating and managing Terraform modules in [backstage.io](https://www.backstage.io/)
   annotations:
      backstage.io/techdocs-ref: dir:./docs
-     github.com/project-slug: sdelbusto/backstage-terraform-s3-module
+     github.com/project-slug: sdelbusto/backstage-terraform-s3-module-azure
 spec:
   type: service
   owner: sdelbusto
