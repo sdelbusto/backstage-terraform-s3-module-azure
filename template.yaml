@@ -3,7 +3,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: terraform
+  name: terraform-azure
   title: Terraform S3 Azure Module
   description: Create a new module for use with Terraform.io
 spec:
