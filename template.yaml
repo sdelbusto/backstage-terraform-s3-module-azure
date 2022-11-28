@@ -54,8 +54,7 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - github.com
-
+              - dev.azure.com
   # here's the steps that are executed in series in the scaffolder backend
   steps:
     - id: fetch-base
@@ -91,7 +90,7 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:github
+      action: publish:azure
       input:
         allowedHosts: ['dev.azure.com']
         description: Terraform Module for ${{ parameters.name }}
